@@ -1,0 +1,67 @@
+/* body {
+    text-align: center;
+} */
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+/* Inicio tabla horarios */
+
+.tablaHorarios {
+    /* esto hace que la tabla quede centrada */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tituloHorarios,
+.listaConsultas {
+    font-size: 1.5em;
+}
+
+.filaDias,
+.hora {
+    color: rgb(13, 13, 14);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.hora {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.lunes {
+    color: red;
+}
+
+.martes {
+    color: blue;
+}
+
+.miercoles {
+    color: orange;
+}
+
+.jueves {
+    color: blueviolet;
+}
+
+.viernes {
+    color: rgb(6, 83, 83);
+}
+
+.sabado {
+    color: brown;
+}
+
+.listaConsultas {
+    list-style: none;
+}
+
+/* Fin tabla horarios */
